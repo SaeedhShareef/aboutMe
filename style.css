@@ -1,31 +1,76 @@
-  body {
-      background-color: lightgrey  }
-  
-  h1 {
-    font-family: 'Acme', sans-serif;
+ 
+     body {
+             background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+        background-size: 400%, 400%;
+        position: relative;
+        animation: change 10s ease-in-out infinite;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 32px;
+        font-weight: bolder; 
+                		}
+      
+    
+      h1{
+        
+      font-family: 'Yellowtail', cursive;
       text-align: center;
-      color: blueviolet;
-  }
+       top: 50%; 
+       left: 50% 
+      font-size: 50px;
+      }
+      
+      
+  
   h2{
     font-weight: 500;
     text-align: center;
-    font-family: 'Acme', sans-serif;
-    color: blueviolet;
-  }
-  li {
-      text-align: center;
-  }
-  text {
-        color: blueviolet; 
-        font-weight: 500;
-        text-align: center;
-        font-family: 'Acme', sans-serif;
-            }
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+
+      }
+
+  
+        li {
+             text-align: center;
+             font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 32px;
+            font-weight: bolder;
+        }
+
+  
+  
+ 
+            
+
+        @media (max-width 240px){
             ul {
                 font-weight: 200;
         text-align: center;
-        font-family: 'Acme', sans-serif;
-        color: blueviolet
+        font-family: 'IBM Plex Sans', sans-serif;
+                text-decoration: none;
+                list-style-type: none;
+            }
+        }
+            a:hover{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 45px;
+                font-family: 'IBM Plex Sans', sans-serif;
+            }
+
+                
+                
+
+            
+            
+            .rounded:hover{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 18%;
+                border-radius: 50%;
 
             }
             
@@ -33,17 +78,45 @@
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
-                width: 20%;
-                border-radius: 50%;
-                border: 10px solid purple;
+                width: 16%;
+                border-radius: 50%; 
                                }
-
+                            
         a {
             display: block;
             margin-left: auto;
             margin-right: auto;
             font-size: 40px;
-            font-family: 'Acme', sans-serif
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: bolder;
+                       
         }
+        li {
+            list-style-type: none;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 40px;
+            font-weight: bolder;
+            
+        }
+
+            @keyframes change {
+                        0%{
+                            background-position: 0 50%;
+                           }
+                        50%{
+                            background-position: 100% 50%;
+                        }
+                        100%{
+                            background-position: 0 50%;
+                        }
+                    }
+                @media (max-width: 240px) {
+                                    body {
+                                    display: block;
+                                    margin: 8px;
+                                    }
+                    }
+                
+
 
             
